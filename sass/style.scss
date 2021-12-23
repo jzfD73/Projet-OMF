@@ -1,4 +1,18 @@
- @import "./base/base.scss";
- @import "./layout/header";
+//    ORDRE DE COMPILATION SASS
 
- 
+//1: @import "./vendors/...";
+//2: @import "./utils/..."; 
+//3: @import "./base/...";
+//4: @import "./layout/...";
+//5: @import "./pages/...";
+//6: @import "./components/...";
+//7: @import "./themes/...";
+
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+
+@import "./base/base.scss";
+
+@import "./layout/grid.scss";
+ @import "./layout/header.scss";
+
