@@ -1,3 +1,5 @@
+
+
 @mixin flexcenter{
     display: flex;
     justify-content: center;
@@ -5,4 +7,9 @@
 @mixin  aligncenter {
     display: flex;
     align-items: center;
+}
+@mixin img-size{
+    width: 400px;
+    height: 300px;
+    
 }

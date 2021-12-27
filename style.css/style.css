@@ -22,8 +22,7 @@
   background-color: rgba(218, 203, 203, 0.822);
 }
 .header__icon {
-  display: flex;
-  align-items: center;
+  padding: 40px;
 }
 .header__location {
   padding-left: 10px;
@@ -38,6 +37,13 @@
 
 .logo {
   width: 100px;
+}
+
+.card {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
