@@ -1,0 +1,19 @@
+.footer{
+    background-color: black;
+    padding: 20px;
+    & i{
+        color: white;
+        padding-right: 10px;
+    }
+    &__info{
+        padding-bottom: 10px;
+    }
+    
+}
+
+.logo{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
