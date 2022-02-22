@@ -1,20 +1,6 @@
 .header__button{
-    width: 220px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
-    text-align: center;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;  
-    &--color{
-        background: linear-gradient(0deg, $primarycolor, $secondarycolor);
-        color: white;
-    } 
-
+    @include btn ;
+   
 }
 .op-btn{
     display: flex;
@@ -41,14 +27,15 @@
     color: white;
     width: 20px;
     height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
+    @include flexcenter ;
+     border-radius: 20px;
     left: -35px;
     position: relative;
     top: 0px;
 }
 .op-text{
     font-weight: bold;
+}
+.order__btn{
+    @include btn
 }
