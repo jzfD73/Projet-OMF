@@ -13,18 +13,19 @@
 }
 @mixin btn{
     width: 220px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     padding: 15px;
+    font-size: initial;
     text-align: center;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    margin-left: auto;
-    margin-right: auto;  
+    border: none; 
+    display: block;
     &--color{
-        background: linear-gradient(0deg, $primarycolor, $secondarycolor);
+        // background: linear-gradient(0deg, $primarycolor, $secondarycolor);
+        background: $gradient;
         color: white;
     }
 }

@@ -1,15 +1,20 @@
 
 .headercarte{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     &__logo{
          @include flexcenter;
         padding: 20px;   
         font-family: $font2;
-        font-size: 2em;
-        .logo{
-            width: 30vh;
+        font-size: 1.8em;
+        // .logo{
+        //     width: 30vh;
 
-        }
+        // }
+    }
+    a{
+        color: black;
     }
 }
 .cartecard{
@@ -57,4 +62,13 @@
 }
 .price{
     font-weight: bold;
+}
+.underline::after{
+    content: "";
+    width: 60px;
+    background: $tertiarycolor;
+    height: 3px;
+    bottom: 15;
+    bottom: 10px;
+    display: block;
 }
