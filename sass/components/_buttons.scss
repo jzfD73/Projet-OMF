@@ -1,26 +1,29 @@
 .header__button{
     @include btn ;
+    &:hover{
+        box-shadow: 5px 5px 10px darkgray, -5px 5px 10px #cfcfcf;
+        // background-color: $gradient2;
+        &--color{
+            background-color: $gradient2;
+        }
+    }
    
 }
 .op-btn{
-    display: flex;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-    // border: 1px solid black;
-    border-radius: 25px;
-    width: 300px;
-    background-color: $gray3 ;
-    box-shadow: 2px 2px 5px lightgrey;
+    @include op-btn ;
+    &:hover{
+        box-shadow: 5px 5px 10px darkgrey, -5px 5px 10px darkgrey;
+        background-color: #f6f6f6; 
+        & .operation__icon{
+            color: $primarycolor;
+        }
+    }
+    
 }
 .operation__icon{
-    padding-right: 20px;
-    padding-left: 20px;
-    color: gray;
-    &:hover{
-        color: $primarycolor;
-    }
+     padding-right: 20px;
+     padding-left: 20px;
+     color: gray;
 }
 .op-number{
     background: $primarycolor;
@@ -28,7 +31,7 @@
     width: 20px;
     height: 20px;
     @include flexcenter ;
-     border-radius: 20px;
+    border-radius: 20px;
     left: -35px;
     position: relative;
     top: 0px;
