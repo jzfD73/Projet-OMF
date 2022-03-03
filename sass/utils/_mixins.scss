@@ -25,7 +25,6 @@
     border: none; 
     display: block;
     &--color{
-        // background: linear-gradient(0deg, $primarycolor, $secondarycolor);
         background: $gradient;
         color: white;
     }
@@ -41,4 +40,11 @@
     background-color: $gray3 ;
     box-shadow: 3px 3px 10px lightgrey, -3px 3px 10px lightgrey;
 
+}@mixin btn-transform{
+    transform: scale(1);
+    // transition: transform 300ms;
+    transition: all 0.3s ease-in;
+    &:hover{
+        transform: scale(1.05);
+    }
 }

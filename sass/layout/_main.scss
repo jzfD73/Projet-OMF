@@ -1,5 +1,6 @@
 main{ 
     background-color: $gray;
+    padding-bottom: 50px;
 }
 .card{
     // display: flex;
@@ -16,7 +17,7 @@ main{
         border-radius: 25px;
         background-color: white;
         margin-top: 20px;
-        box-shadow: 2px 2px 5px #ececec;
+        box-shadow: 5px 5px 10px #ececec;
 
     }
     &__image{
@@ -24,8 +25,7 @@ main{
          height: 185px;
          border-top-left-radius: 25px;
          border-top-right-radius: 25px;
-         position: relative;
-        
+         position: relative;  
      }
     img{
         width: 100%;
@@ -37,10 +37,24 @@ main{
    
      
     &__info{
-        font-size: 0.95em;
-        padding : 10px;
+        font-size: 1.1em;
+        padding : 20px;
         color: black;
     }
+    &__heart{
+        color: #000;
+    }
+}
+.heart{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.INFO{
+    display: flex;
+    justify-content: space-between;
+    
 }
 .element{
        

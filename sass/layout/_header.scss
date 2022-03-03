@@ -5,7 +5,7 @@
          @include flexcenter;
         padding: 20px;   
         font-family: shrikhand;
-        font-size: 2em;
+        font-size: 1.9em;
         .logo{
             width: 30vh;
 
@@ -17,12 +17,12 @@
         height: 50px;
           @include flexcenter;
         
-        border-top: 1px solid $gray;
+        border-top: 4px solid cfcfcf;
         background-color: gainsboro ;
     }
     &__icon{
         @include flexcenter;
-      padding: 40px;
+      padding: 16px;
     
     
        
@@ -38,13 +38,13 @@
         padding: 20px 10px 20px 10px;
     }
     &__title{
-        font-size: 2rem;
+        font-size: 1.5em;
         text-align: center;
-        margin-bottom: 20px;
+        padding: 25px 40px 20px;
     }  
     &__discovery{
         text-align: center;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
    
 }

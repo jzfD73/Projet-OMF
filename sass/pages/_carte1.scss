@@ -18,8 +18,9 @@
     }
 }
 .cartecard{
-    
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
     
     &__body{
         width: 100%;
@@ -54,7 +55,7 @@
     margin-top: 20px;
     padding: 10px;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .detail{
     display: flex;
@@ -68,7 +69,9 @@
     width: 60px;
     background: $tertiarycolor;
     height: 3px;
-    bottom: 15;
     bottom: 10px;
     display: block;
+}
+.order__button{
+    padding-top: 30px;
 }
