@@ -1,0 +1,12 @@
+.flag{
+    width: 50px;
+    overflow: hidden;
+    transform: scaleX(0);
+}
+.flag--open{
+    &:hover{
+        transform-origin: right 50%;
+        transform: scaleX(1);
+    }
+
+}
